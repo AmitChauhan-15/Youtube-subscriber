@@ -17,7 +17,7 @@ app.get("/", (req, res, next) => {
 });
 
 // Route
-app.use("/subscriber", subscriberRouter);
+app.use("/subscribers", subscriberRouter);
 
 // Unhandled route
 app.all("*", (req, res, next) => {
