@@ -1,10 +1,14 @@
 const express = require("express");
+const cors = require("cors");
 
 const subscriberRouter = require("./route/subscriberRouter");
 const AppError = require("./utils/appError");
 const errorHandler = require("./controller/errorController");
 
 const app = express();
+
+// Implement CORS
+app.use(cors());
 
 // Body parser
 app.use(express.json());
