@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const subscriberRouter = require("./route/subscriberRouter");
 const AppError = require("./utils/appError");
-const errorHandler = require("./controller/errorController");
+const errorHandler = require("./controllers/errorController");
 
 const app = express();
 
