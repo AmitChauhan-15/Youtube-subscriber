@@ -85,7 +85,7 @@ The application implements global error handling. In development environment, er
 The following NPM scripts are available:
 
 ```bash
-  npm run test
+  npm start
 ```
 
 Starts the application in development environment. It loads environment variables from a .env file using the dotenv package.
