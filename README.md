@@ -4,7 +4,7 @@ This is a backend Node.js application that provides API endpoints to retrieve in
 
 ## API Endpoints
 
-**GET api/subscriber**
+**GET api/subscribers**
 
 Returns an array of objects containing details of all subscribers.
 
@@ -30,7 +30,7 @@ Status Code: 200 OK
         },
     ]
 
-**GET api/subscriber/name**
+**GET api/subscribers/name**
 
 Returns an array of objects containing only the name and subscriberChannel fields of all subscribers.
 
